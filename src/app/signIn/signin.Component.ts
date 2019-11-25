@@ -6,13 +6,13 @@ import {
 } from 'angular-6-social-login';
  
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-signin',
+  templateUrl: './signin.component.html',
+  styleUrls: ['./signin.component.css']
 })
  
  
-export class AppComponent implements OnInit {
+export class SigninComponent implements OnInit {
     
     constructor( private socialAuthService: AuthService ) {}
     
